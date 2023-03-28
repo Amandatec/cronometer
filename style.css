@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #111;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 80rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10rem;
+  color: #d1cba1;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #272323;
+  box-shadow: 0 0 5px #a59797;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
+
+button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  font-family: "Segoe UI";
+  font-size: 1.1em;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 0.8rem;
+}
+
+button:hover {
+  background-color: #7072748c;
+}
+
+button:active {
+  background-color: #602583;
+}
+
+.btn-start {
+  background-color: #63d128d5;
+}
+
+.btn-pause {
+  background-color: #c4ae0ec2;
+}
+
+.btn-stop {
+  background-color: #e94545;
+}
